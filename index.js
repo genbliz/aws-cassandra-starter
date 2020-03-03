@@ -23,7 +23,7 @@ const client = new cassandra.Client({
   contactPoints: contactPoints,
   authProvider: authProvider,
   localDataCenter: "dc1",
-  keyspace: "people",
+  // keyspace: "people",
   sslOptions: sslOptions
 });
 
