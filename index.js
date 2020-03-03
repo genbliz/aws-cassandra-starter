@@ -22,7 +22,6 @@ const sslOptions = {
 const client = new cassandra.Client({
   contactPoints: contactPoints,
   authProvider: authProvider,
-  // localDataCenter: "dc1",
   localDataCenter: "dc1",
   keyspace: "people",
   sslOptions: sslOptions
