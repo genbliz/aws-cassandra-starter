@@ -14,7 +14,8 @@ const contactPoints = [
 ];
 
 const sslOptions = {
-  cert: fs.readFileSync("AmazonRootCA1.pem"),
+  // cert: fs.readFileSync("AmazonRootCA1.pem"),
+  ca: [fs.readFileSync("AmazonRootCA1.pem")],
   host: process.env.CASSANDRA_HOST,
   rejectUnauthorized: true
 };
