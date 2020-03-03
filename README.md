@@ -6,4 +6,6 @@
 * Download the Amazon digital certificate to the root directory of your app: \
  ```curl https://www.amazontrust.com/repository/AmazonRootCA1.pem -O ```
 * Install packages: \
-  npm install cassandra-driver dotenv uuid
+  ```npm install cassandra-driver dotenv uuid```
+* Run the app:\
+  ```npm run start```
